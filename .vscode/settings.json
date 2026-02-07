@@ -1,0 +1,58 @@
+{
+    "editor.tokenColorCustomizations": {
+        "comments": {
+            "foreground": "#2a6c7c",
+            "fontStyle": "italic bold"
+        },
+        "textMateRules": [
+            {
+                "scope": "entity.name.tag",
+                "settings": {
+                    "foreground": "#e06c75"
+                }
+            },
+            {
+                "scope": "entity.other.attribute-name",
+                "settings": {
+                    "foreground": "#d19a66"
+                }
+            },
+            {
+                "scope": "string.quoted.double.html",
+                "settings": {
+                    "foreground": "#98c379"
+                }
+            },
+            {
+                "scope": "entity.other.attribute-name.class",
+                "settings": {
+                    "foreground": "#d19a66"
+                }
+            },
+            {
+                "scope": "support.type.property-name.css",
+                "settings": {
+                    "foreground": "#56b6c2"
+                }
+            },
+            {
+                "scope": "storage.type",
+                "settings": {
+                    "foreground": "#c678dd"
+                }
+            },
+            {
+                "scope": "entity.name.function",
+                "settings": {
+                    "foreground": "#61afef"
+                }
+            },
+            {
+                "scope": "punctuation.definition.tag",
+                "settings": {
+                    "foreground": "#abb2bf"
+                }
+            }
+        ]
+    }
+}
