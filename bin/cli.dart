@@ -26,5 +26,9 @@ void searchWiki(List<String>? arguments) {
   } else {
     articleTitle = arguments.join(' ');
   }
-  print('Current article title $articleTitle');
+  print('Looking up articles about "$articleTitle". Please wait.');
+  print('Here ya go!');
+  print('(Pretend this is an article about "$articleTitle")');
 }
+
+// readLineSync() returns the entire line as one string, so No join is needed
