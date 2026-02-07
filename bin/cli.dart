@@ -9,6 +9,7 @@ void main(List<String> arguments) {
   } else if (arguments.first == 'version') {
     print('dart version $version');
   } else if (arguments.first == 'wikipedia') {
+    // if there is more input than just wikipedia word
     final inputArgs = arguments.length > 1 ? arguments.sublist(1) : null;
     searchWiki(inputArgs); // no 'await' needed here for main
   } else {
